@@ -1,6 +1,6 @@
 cask "terminal" do
-  version "0.1.0"
-  sha256 "2df5fd02c8c0ccfeff49d234e1769815cee35d80b011d6af8c598e4aac32f90e"
+  version "0.1.1"
+  sha256 "c00289e8bb6259f76597bc835aaef6c0e2a35a6f4bc790e2bdee2ae8982cb640"
 
   url "https://github.com/fintermxyz/terminal/releases/download/v#{version}/terminal.dmg"
   name "terminal"
@@ -8,7 +8,7 @@ cask "terminal" do
   homepage "https://github.com/fintermxyz/terminal"
 
   depends_on arch: :arm64
-  depends_on macos: :monterey
+  depends_on macos: :sequoia
 
   app "terminal.app"
 
