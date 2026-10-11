@@ -1,6 +1,6 @@
 cask "terminal" do
-  version "0.1.1"
-  sha256 "c00289e8bb6259f76597bc835aaef6c0e2a35a6f4bc790e2bdee2ae8982cb640"
+  version "0.1.2"
+  sha256 "6fbb0a114739def758ff2e2b8c8707d7012127c5c4bca3e58f0a37d18ba204b4"
 
   url "https://github.com/fintermxyz/terminal/releases/download/v#{version}/terminal.dmg"
   name "terminal"
